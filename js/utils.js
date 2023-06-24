@@ -29,7 +29,7 @@ let timerId
 
 function decreaseTimer() {
   if (timer > 0) {
-    audio.play()
+    //audio.play()
     timerId = setTimeout(decreaseTimer, 1000)
     timer--
     document.querySelector('#timer').innerHTML = timer
