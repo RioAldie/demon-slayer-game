@@ -25,7 +25,7 @@ function determineWinner({ player, enemy, timerId }) {
 
 let timer = 100
 let timerId
-let audio = document.getElementById('audio')
+// let audio = document.getElementById('audio')
 
 function decreaseTimer() {
   if (timer > 0) {
